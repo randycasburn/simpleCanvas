@@ -1,0 +1,59 @@
+header nav div{
+    color: black;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    margin: 4px 4px;
+    float: left;
+    cursor: pointer;
+    border-radius: 90px;
+    overflow: hidden;
+    background-color: transparent;
+}
+header nav span {
+    display: block;
+}
+header nav span.separator {
+    float: left;
+    height:30px;
+    width: 2px;
+    margin: 10px;
+    border-left: rgba(0,0,0,0.3) 1px solid;
+}
+header nav div.color>img {
+    display: none;
+}
+header nav div.purple {
+    background-color: purple;
+}
+
+header nav div.green {
+    background-color: green;
+}
+
+header nav div.red {
+    background-color: red;
+}
+
+header nav div.yellow {
+    background-color: yellow;
+}
+
+header nav div.blue {
+    background-color: blue;
+}
+header nav div>div,
+header nav div>span {
+    height: 20px;
+    width: 30px;
+    margin: 8px 3px;
+    border: 2px solid;
+    border-radius: 0;
+}
+header nav div.color>img.color-active {
+    display: block;
+}
+header nav .disabled {
+    opacity: 0.4;
+    cursor: initial;
+}

@@ -1,0 +1,29 @@
+body {
+    background: white;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background: lightgray;
+    position: static;
+    width: 100vw;
+    height: 50px;
+}
+
+canvas {
+    width: 960px;
+    height: 640px;
+    border: 1px solid darkblue;
+    cursor: crosshair;
+}
+canvas#main-canvas {
+    float:left;
+}
+canvas#temp-canvas {
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
