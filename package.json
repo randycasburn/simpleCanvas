@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "go": "open http://localhost:3000/index.html -a '/Applications/Google Chrome.app'",
     "compile": "./node_modules/.bin/babel index.js --out-dir dist && ./node_modules/.bin/babel index.js ./js --out-dir ./dist/js --source-maps"
   },
   "dependencies": {
